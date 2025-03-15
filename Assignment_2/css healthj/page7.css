@@ -1,0 +1,44 @@
+/* journal.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E6F6DB;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.insights-container {
+    width: 90%;
+    max-width: 440px;
+}
+
+.nav-arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.arrow {
+    font-size: 24px;
+    color: #425C42;
+    cursor: pointer;
+}
+
+h2, h3 {
+    margin: 12px 0;
+    color: #425C42;
+}
+
+.insight {
+    margin: 16px 0;
+    color: #425C42;
+    font-size: 16px;
+    line-height: 1.5;
+}
